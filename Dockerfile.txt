@@ -1,4 +1,4 @@
-# Use Python as the base image
+# Use Python as base image
 FROM python:3.9
 
 # Set working directory
@@ -6,9 +6,10 @@ WORKDIR /app
 
 # Copy project files
 COPY api_server.py .
+COPY node.py .
 
-# Expose the API server port
-EXPOSE 5000
+# Install dependencies
+RUN pip install flask docker requests
 
 # Run API server on container startup
 CMD ["python", "api_server.py"]
