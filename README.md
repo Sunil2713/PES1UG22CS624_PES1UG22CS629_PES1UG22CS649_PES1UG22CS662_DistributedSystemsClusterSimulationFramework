@@ -52,4 +52,4 @@ docker run -p 5000:5000 cluster-simulator
 
 - The API server runs on `http://127.0.0.1:5000`.
 - Ensure that the `NODE_ID` environment variable is set when running `node.py`.
-- Sensitive files (like API keys) are excluded from git tracking via `.gitignore`. 
+- Sensitive files (like API keys) are excluded from git tracking via `.gitignore`.
