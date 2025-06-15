@@ -13,8 +13,8 @@ This project simulates a distributed cluster system using a Flask API server, no
 
 1. **Clone the Repository**:
    ```sh
-   git clone https://github.com/Sunil2713/PES1UG22CS624_PES1UG22CS629_PES1UG22CS649_PES1UG22CS662_DistributedSystemsClusterSimulationFramework.git
-   cd PES1UG22CS624_PES1UG22CS629_PES1UG22CS649_PES1UG22CS662_DistributedSystemsClusterSimulationFramework
+   git clone https://github.com/Sunil2713/distributed-cluster-framework.git
+   cd distributed-cluster-framework
    ```
 
 2. **Install Dependencies**:
