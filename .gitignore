@@ -1,0 +1,5 @@
+API Key 5953b16283c51314dfaf.txt
+*.pyc
+__pycache__/
+.env
+.DS_Store 
